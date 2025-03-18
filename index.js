@@ -38,12 +38,12 @@ function checkPriceThreshold(threshold) {
 }
 
 // === DOM Manipulation (if running in a browser) ===
-document.addEventListener("DOMContentLoaded", () => {
-  const btn = document.createElement("button");
-  btn.textContent = "Click Me!";
-  btn.onclick = () => alert("Button clicked!");
-  document.body.appendChild(btn);
-});
+// document.addEventListener("DOMContentLoaded", () => {
+//   const btn = document.createElement("button");
+//   btn.textContent = "Click Me!";
+//   btn.onclick = () => alert("Button clicked!");
+//   document.body.appendChild(btn);
+// });
 
 // === Execution ===
 greetUser("John Doe");
